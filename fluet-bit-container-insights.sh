@@ -1,5 +1,5 @@
 # Need to make executable and run as ./<script>
-ClusterName='saif-eks'
+ClusterName='iqbal-eks-cluster'
 LogRegion='us-east-1'
 FluentBitHttpPort='2020'
 FluentBitReadFromHead='Off'
