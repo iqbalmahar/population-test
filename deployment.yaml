@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: populationapp
-        image: iqbaldocker1/population_app:v1
+        image: iqbaldocker1/population_app:1.0
         ports:
         - containerPort: 5000
