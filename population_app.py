@@ -20,8 +20,10 @@ data = {
 def search():
     args = request.args
     country = args.get('country', default='')
-    
+    if "".__eq__(country):
+        return data
     if country not in data.keys():
         return  "Country data does nto exists"
     else:
         return data[country]
+    
